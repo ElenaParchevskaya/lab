@@ -1,10 +1,16 @@
 ﻿using System;
-namespace lab_5
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lab_6
 {
-    public class EmptyClass
+    internal partial class Watch : Good
     {
-        public EmptyClass()
+        public override string ToString()
         {
+            return ($"Type : Watch, Name : {name}, Price : {price}");
         }
     }
 }
